@@ -1,0 +1,396 @@
+body
+{
+	/*width:1450px;*/
+	/*margin: 0px 230px;*/
+	background-color: #F0F3F5;
+}
+img {
+    width: 270px;
+}
+	nav  /*nav bar start*/
+	{
+		width: 240px;
+		background-color: white;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		float:left;
+	}
+		.pluto-logo
+		{
+			padding:50px 0px 0px 50px;
+			float:left;
+			margin-bottom:50px; 
+		}
+			.pluto-logo div
+			{
+				width:13px;
+				height:13px;
+				border-radius: 50px;
+				margin-bottom: 1px;
+			}
+				.clr-1
+				{
+					background-color: #F29999;
+				}
+				.clr-2
+				{
+					background-color: #CCEECF;
+				}
+				.clr-3
+				{
+					background-color: #AFCCE6;
+				}
+		nav h2
+		{
+			padding:38px 0px 0px 70px;
+			/*font-family: ;*/
+		}
+		nav button
+		{
+			width: 170px;
+			height: 35px;
+			margin-left: 30px;
+			border-style: double solid solid;
+			border-width: 3px 2px 1px 2px;
+			border-color: linear-gradient(to bottom, gray 100%, gray 50%);
+			border-radius: 100px;
+			background-color: white;
+		}
+			button span
+			{
+				color:#D4DFEA;
+				padding-right: 70px;
+			}
+			button i
+			{
+				color:#CDDAE2;
+			}
+		.div-red
+		{
+			margin:50px 0px 0px 50px;
+			width:15px;
+			height: 5px;
+			background-color: red;
+		}
+		.menu
+		{
+			list-style-type:none;
+			padding-top: 30px;
+		}
+			.menu i
+			{
+				padding-right:15px;
+				color: #CDDAE2;
+			} 
+			.menu li
+			{
+				padding-bottom: 10px;
+			}
+		.social-icons
+		{
+			list-style-type: none;
+			padding-top: 40px;
+			padding-bottom: 100px;
+		}
+			.social-icons div
+			{
+				width:25px;
+				height: 25px;
+				border-radius: 50px;
+				float:left;
+				margin-right: 10px;
+			}
+			.clr-4
+			{
+				background-color: #3E5D99;
+			}
+			.clr-5
+			{			
+				background-color: #1174B0;
+			}
+			.clr-6
+			{
+				background-color: #C9232D;
+			}
+			.clr-7
+			{
+				background-color: #36ABDF;
+			}
+			.social-icons i
+			{
+				color:white;
+				padding: 5px 0px 0px 5px;
+			}
+	/*nav bar end*/
+
+	header
+	{
+		/*width:1300px;*/
+		height:200px;
+		margin-left: 240px;
+	}
+/*		.img-1
+		{
+			background-image: url("img/header-img-1.jpg");
+			z-index: -2;
+			width:300px;
+		 	height: 200px;
+		}
+		.layer
+		{
+			background-color: black;
+			width:300px;
+		 	height: 200px;
+			opacity:0.4;
+			z-index:1;
+		}
+		.txt
+		{
+		 	z-index:6;
+		 	opacity: 1;
+		}
+		.txt h4
+		{
+		 	padding:130px 0px 0px 20px;
+		 	color:white;
+		 	line-height: 0px;
+		}
+		.txt p
+		{
+		 	color:white;
+		 	padding:0px 0px 0px 20px;
+		 	font-size: 10px;
+		 	line-height: 0px;
+		}*/
+		header div
+		{
+			background-image: url("img/header-img-1.jpg");
+		 	width:260px;
+		 	height: 200px;
+		 	float:left;
+		}
+		header div h4
+		{
+		 	padding:130px 0px 0px 20px;
+		 	color:white;
+		 	line-height: 0px;
+		}
+		header div p
+		{
+		 	color:white;
+		 	padding:0px 0px 0px 20px;
+		 	font-size: 10px;
+		 	line-height: 0px;
+		}
+	/*header end*/
+
+	.pagination
+		{
+			padding:15px 0px 15px 725px; 
+
+		}
+			.pagination div
+			{
+				width:10px;
+				height:10px;
+				border-radius: 50px;
+				margin-right: 10px;
+				background-color: gray;
+				float:left;
+			}
+
+		/*end of pagination*/
+
+	.content
+	{
+		margin:10px 40px 0px 280px;
+	}
+		.left-content, .center-content
+		{
+			margin:0px 30px 0px 0px;
+			float:left;
+		}
+		.right-content
+		{
+			margin:0px;
+			float:left;
+		}
+		.box
+		{
+			margin:0px 0px 30px 0px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			background-color: white;
+			width:300px;
+			border-radius: 10px;
+		}
+		.box-1
+		{
+			margin:0px 0px 30px 0px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			background-color: white;
+			width:300px;
+			border-radius: 10px;
+			padding: 1px 0px;
+		}
+		.box-img
+		{
+			padding-top:20px;
+			text-align: center;
+			border-radius: 5px;
+			z-index:-2;
+		}
+		.img-1
+		{
+			margin:0px 0px 0px 15px;
+			width:270px;
+			height: 220px;
+			background-image: url("img/content-img-1.jpg");
+			z-index:-1;
+		}
+			/*.box-img img
+			{
+			border-radius: 5px;
+			z-index:-2;
+			}*/
+
+				/*.hide-on
+				{
+					width:330px;
+					height: 220px;
+					background-color: black;
+					opacity:0.1;
+					/*display:none;*/
+					z-index: 1;
+				}
+				.hide-on div
+				{
+					text-decoration: none;
+					width:100px;
+					height: 30px;
+					background-color: black;
+					border-radius: 5px;
+					color:white;
+				}*/
+				/*.box-img:hover .hide-on
+				{
+					background-color: black;
+					opacity:0.5;
+					z-index:3;
+				}*/
+
+
+
+		.box-read
+		{
+			margin:20px 0px 30px 30px;
+			background-color: #F4F9FC;
+			text-align: center;
+			width:65px;
+			height: 20px;
+			border-style: none none solid none;
+			border-color: #62BAE7;
+			border-width: 1px;
+			line-height: 21px;
+		}
+			.box-read a
+			{
+				text-decoration: none;
+				color:#62BAE7;
+				font-size: 12px;
+			}
+		.box-foo
+		{
+			width:300px;
+			height:50px;
+			background-color: #F1F6F8;
+		}
+		.box-foo-btn
+		{
+			border-style: solid;
+			border-radius: 5px;
+			width:auto;
+			height: auto;
+			border-color: #A2D2EB;
+			background-color: #D4EDFC;
+			margin:15px 0px 0px 15px;
+			padding:0px 3px;
+			color:#62BAE7;
+			font-size: 12px;
+		}
+		.box-foo > i
+		{
+			padding-left: 20px;
+			padding-right: 5px;
+			font-size: 12px;
+		}
+		.box-foo > span
+		{
+			padding-left: 5px;
+			font-size: 12px;
+		}
+		.box-foo-like
+		{
+			float:right;
+			width:80px;
+			height:50px;
+			background-color: #EAF2F5;
+			color:#62BAE7;
+		}
+			.box-foo-like div
+			{
+				padding:15px 0px 0px 18px; 
+			}
+			.box-foo-like  i,span
+			{
+				font-size: 12px;
+				padding-left: 0px;
+			}
+
+	section
+	{
+		text-align: left;
+		padding-left:30px;
+		padding-right: 40px;
+	}
+	.place-for-add
+	{
+		height:250px;
+		background-color: #C3D0DB;
+		margin:20px 20px;
+		text-align: center;
+	}
+	.place-for-add h3
+	{
+		color:white;
+		padding-top:75px;
+		font-size: 30px;
+	}
+	.place-for-add span
+	{
+		color:white;
+		padding-top:10px;
+		border-style: solid none none;
+		border-color: white;
+		font-size: 20px;
+	}
+	.quoted
+	{
+		height:250px;
+		background-color: #51789A;
+		margin:20px 20px;
+	}
+	.quoted i
+	{
+		padding:30px 0px 0px 30px;
+		color:white;
+	}
+	.quoted p
+	{
+		color:white;
+		padding:10px 50px 0px ;
+		font-size: 20px;
+	}
+	.quoted span
+	{
+		color:white;
+		padding:15px 0px 0px 150px;
+	}
